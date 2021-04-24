@@ -8,13 +8,14 @@ function HeroSection() {
       <div className='hero-container'>
         <div className='hero-text'>
           <h1>WELCOME TO MY SITE!</h1>
-          <p>Hello! My name is Tri Nguyen, I'm a freelance Illustrator who loves to draw and paint!</p>
-          <p>I love to draw Manga, anime, chibi, cartoony and sketchy. I really really enjoy creating something from my mind. I'm terrible at writing, and I feel difficulty to talk with people about my feeling and issues, I can transfer those feelings into an image that reflects them. </p>
+          <p>Hello! My name is Tri Nguyen, I am a freelance software engineer.</p>
+          <p>I am interested in studying Computer Science because I find it fascinating. When I was a child, I was absolutely attracted to computer games and later it was programming. I also like studying math and drawing, but I chose IT as my career because of its opening, modernity and lots of challenges.</p>
           <div className='hero-btns'>
             <Button
               className='btns'
               buttonStyle='btn--outline'
               buttonSize='btn--large'
+              page ='About'
             >
               GET STARTED
             </Button>       

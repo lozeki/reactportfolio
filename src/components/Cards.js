@@ -17,13 +17,13 @@ function Cards() {
             />    
             <CardItem   
               src='images/img-2.jpg'
-              text='In some ways, programming is like painting!'
-              label='Programer'
+              text='Skills that I have learned through work and study experience.'
+              label='Technical Skills'
               path='/skills'
             /> 
             <CardItem   
               src='images/img-3.jpg'
-              text='In some ways, programming is like painting!'
+              text='I am a curious software engineer that loves to keep myself on the bleeding edge of technology trends.'
               label='Programer'
               path='/skills'
             />           
