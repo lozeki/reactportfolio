@@ -29,11 +29,11 @@ const Sidebar = ({isOpen,toggle}) => {
                         <SidebarLink to ='skills' onClick={toggle}>Skills</SidebarLink>
                     </SidebarItem>
                     <SidebarItem>
-                        <SidebarLink to ='contact' onClick={toggle}>Contact</SidebarLink>
+                        <SidebarLink to ='portfolio' onClick={toggle}>Portfolio</SidebarLink>
                     </SidebarItem>                    
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to= 'signin'>Sign In</SidebarRoute>
+                    <SidebarRoute to= 'contact'>Contact</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>            
         </SidebarContainer>

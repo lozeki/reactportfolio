@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {FaBars} from 'react-icons/fa';
+import { animateScroll} from 'react-scroll';
 import {
     Nav,
     NavbarContainer,
@@ -13,31 +14,59 @@ import {
 } 
 from './NavbarElements';
 
-const Navbar = ({toggle}) => {
+const Navbar = ({toggle}) => {    
+    const toggleHome = () => { // Use react-scroll from npmjs
+        animateScroll.scrollToTop();
+    };
+        
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>Tri Nguyen</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome} >Tri Nguyen</NavLogo>
                     <MobileIcon onClick ={toggle}>                        
                         <FaBars />
                     </MobileIcon>                    
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='home'>Home</NavLinks>
+                            <NavLinks to='home' 
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                            >Home</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='about'>About</NavLinks>
+                            <NavLinks to='about'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                            >About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='skills'>Skills</NavLinks>
+                            <NavLinks to='skills'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                            >Skills</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='contact'>Contact</NavLinks>
+                            <NavLinks to='portfolio'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                            >Portfolio</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to ='/signin'>Sign In</NavBtnLink>
+                        <NavBtnLink to ='contact'>Contact</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
@@ -45,4 +74,4 @@ const Navbar = ({toggle}) => {
     )
 }
 
-export default Navbar
+export default Navbar;

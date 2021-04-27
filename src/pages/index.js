@@ -3,11 +3,13 @@ import InfoSection from '../components/InfoSection';
 import DisplaySection from '../components/DisplaySection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer';
 import {
     homeObjOne,
     homeObjTwo,
     homeObjThree
   } from '../components/InfoSection/Data';
+import SkillSet from '../components/SkillSet';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +25,9 @@ const Home = () => {
             <DisplaySection/>
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
-            <InfoSection {...homeObjThree}/>
-            
+            <InfoSection {...homeObjThree}/>            
+            <SkillSet />
+            <Footer/>
         </>
     )
 }
