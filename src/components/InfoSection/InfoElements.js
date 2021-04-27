@@ -47,8 +47,8 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 60px;
 `
-export const TopLine = styled.div`
-  color: #01bf71;
+export const TopLine = styled.div`  
+color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;

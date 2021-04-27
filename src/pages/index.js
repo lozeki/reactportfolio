@@ -22,6 +22,8 @@ const Home = () => {
             <Navbar toggle ={toggle}/>
             <DisplaySection/>
             <InfoSection {...homeObjOne}/>
+            <InfoSection {...homeObjTwo}/>
+            <InfoSection {...homeObjThree}/>
             
         </>
     )
