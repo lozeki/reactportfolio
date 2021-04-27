@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from '../../components/ButtonElement'
+import {Button} from '../ButtonElements'
 import {
     DisplayContainer, 
     DisplayBg, 

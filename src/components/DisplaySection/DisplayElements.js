@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import pictureUrl from '../../images/img-0.jpg';
+//import pictureUrl from '../../images/img-0.jpg';
 
 export const DisplayContainer =styled.div`
     background: #0c0c0c;
