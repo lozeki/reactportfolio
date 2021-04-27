@@ -10,8 +10,8 @@ export const DisplayContainer =styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
+    top: 0;    
 `
-
 export const DisplayBg =styled.div`
     position: absolute;
     top: 0;
@@ -29,14 +29,14 @@ export const VideoBg =styled.video`
     object-fit: cover;
     background:#232a34;     
 `
-export const PictureBg =styled.div`
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    background-color:red;
-    background-image: url(${pictureUrl}); 
-`
+// export const PictureBg =styled.div`
+//     width: 100%;
+//     height: 100%;
+//     -o-object-fit: cover;
+//     object-fit: cover;
+//     background-color:red;
+//     background-image: url(${pictureUrl}); 
+// `
 
 export const DisplayContent =styled.div`
     z-index: 3;
@@ -60,19 +60,19 @@ export const DisplayH1 =styled.h1`
     }
 `
 export const DisplayP =styled.p`
-    margin-top: 24px;
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    max-width: 600px;
+margin-top: 24px;
+color: #fff;
+font-size: 24px;
+text-align: center;
+max-width: 600px;
 
-    @media screen and(max-width:768px{
-        font-size:20px;    
-    }
+@media screen and (max-width: 768px) {
+  font-size: 24px;
+}
 
-    @media screen and(max-width:480px{
-        font-size:18px;    
-    }   
+@media screen and (max-width: 480px) {
+  font-size: 18px;
+}
 `
 export const DisplayBtnWrapper =styled.div`
     margin-top: 32px;

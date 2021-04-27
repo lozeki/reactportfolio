@@ -4,7 +4,7 @@ import {
     DisplayContainer, 
     DisplayBg, 
     VideoBg, 
-    PictureBg, 
+    // PictureBg, 
     DisplayContent, 
     DisplayH1,
     DisplayP,
@@ -14,10 +14,10 @@ import video from '../../videos/video.mp4';
 
 const DisplaySection =()=>{
     return(
-        <DisplayContainer>
+        <DisplayContainer id='home'>
             <DisplayBg>
                 {/* <PictureBg></PictureBg> */}
-                <VideoBg autoPlay loop muted src={video} type='video/mp4' />
+                <VideoBg playsInline autoPlay loop muted src={video} type='video/mp4' />
             </DisplayBg>
             <DisplayContent>
                 <DisplayH1>

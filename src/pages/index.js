@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import DisplaySection from '../components/DisplaySection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar'
+import DisplaySection from '../components/DisplaySection';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,10 +11,11 @@ const Home = () => {
     }
 
     return (
-        <>
+        <>        
             <Sidebar isOpen ={isOpen} toggle ={toggle}/>
             <Navbar toggle ={toggle}/>
-            {/* <DisplaySection/> */}
+            <DisplaySection/>
+            
         </>
     )
 }
