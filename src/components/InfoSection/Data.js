@@ -26,7 +26,7 @@ export const homeObjOne = {
     description:
       'I have several interns in software engineer, network administrator, and front-end web developer. Those experiences have taught me the full lifecycle development of a software product and quality assurance testing.',
     buttonLabel: 'Learn More',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/img-1.png'),
     alt: 'Skill set',
     dark: true,

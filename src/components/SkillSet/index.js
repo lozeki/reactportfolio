@@ -28,7 +28,7 @@ const SkillSet = () => {
               <SkillIcon src={Icon2} />
               <SkillH2>Technical Skills</SkillH2>
               <SkillP>
-              Being able to code, and understand the lifecycle of a software product.
+              Code and understand the lifecycle of a software product.
               </SkillP>
             </SkillCard>
             <SkillCard>

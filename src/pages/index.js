@@ -25,8 +25,9 @@ const Home = () => {
             <DisplaySection/>
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
-            <InfoSection {...homeObjThree}/>            
+                        
             <SkillSet />
+            <InfoSection {...homeObjThree}/>
             <Footer/>
         </>
     )

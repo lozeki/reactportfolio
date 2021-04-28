@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import {FaBars} from 'react-icons/fa';
 import { animateScroll} from 'react-scroll';
 import {
@@ -73,5 +72,4 @@ const Navbar = ({toggle}) => {
         </>
     )
 }
-
 export default Navbar;
