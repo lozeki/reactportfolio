@@ -27,7 +27,7 @@ const Navbar = ({toggle}) => {
                         <FaBars />
                     </MobileIcon>                    
                     <NavMenu>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to='home' 
                             smooth={true}
                             duration={500}
@@ -35,14 +35,14 @@ const Navbar = ({toggle}) => {
                             exact='true'
                             offset={-80}
                             >Home</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                             <NavLinks to='about'
                             smooth={true}
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-80}
+                            offset={0}
                             >About</NavLinks>
                         </NavItem>
                         <NavItem>
@@ -51,8 +51,17 @@ const Navbar = ({toggle}) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-80}
+                            offset={0}
                             >Skills</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='work'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={0}
+                            >Work Experience</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='portfolio'
@@ -60,7 +69,7 @@ const Navbar = ({toggle}) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-80}
+                            offset={0}
                             >Portfolio</NavLinks>
                         </NavItem>
                     </NavMenu>

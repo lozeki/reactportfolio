@@ -27,9 +27,16 @@ const DisplaySection =()=>{
                 Software engineer who focses on writing clean, elegant, and efficient code.  
                 </DisplayP>
                 <DisplayBtnWrapper>
-                    <Button to ='about'
-                    primary='true'
-                    dark='true'>
+                    <Button 
+                        to='about'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={0}
+                        primary='true'
+                        dark='true'
+                    >
                         Get Started
                     </Button>
                 </DisplayBtnWrapper>

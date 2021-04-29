@@ -10,7 +10,7 @@ export const DisplayContainer =styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
-    top: 0;    
+    top: 80px;    
 `
 export const DisplayBg =styled.div`
     position: absolute;
@@ -40,6 +40,7 @@ export const VideoBg =styled.video`
 
 export const DisplayContent =styled.div`
     z-index: 3;
+    margin-top:-40px;
     max-width: 1200px;
     position: absolute;
     padding: 8px 24px;

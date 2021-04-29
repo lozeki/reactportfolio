@@ -19,9 +19,9 @@ const Sidebar = ({isOpen,toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarItem>
+                    {/* <SidebarItem>
                         <SidebarLink to ='home' onClick={toggle}>Home</SidebarLink>
-                    </SidebarItem>
+                    </SidebarItem> */}
                     <SidebarItem>
                         <SidebarLink to ='about' onClick={toggle}>About</SidebarLink>
                     </SidebarItem>
@@ -29,8 +29,11 @@ const Sidebar = ({isOpen,toggle}) => {
                         <SidebarLink to ='skills' onClick={toggle}>Skills</SidebarLink>
                     </SidebarItem>
                     <SidebarItem>
-                        <SidebarLink to ='portfolio' onClick={toggle}>Portfolio</SidebarLink>
-                    </SidebarItem>                    
+                        <SidebarLink to ='work' onClick={toggle}>Work Experience</SidebarLink>
+                    </SidebarItem>    
+                    <SidebarItem>
+                        <SidebarLink to ='work' onClick={toggle}>Portfolio</SidebarLink>
+                    </SidebarItem>                
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to= 'contact'>Contact</SidebarRoute>

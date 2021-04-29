@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Redirect} from 'react-router-dom';
 import {
     Container,
     FormWrap,
@@ -25,7 +26,8 @@ const Contact = () => {
     event.preventDefault();
     console.log('submitted!');
     console.log(state);    
-    console.log("Succeeded!!!");   
+    console.log("Succeeded!!!"); 
+    return  <Redirect  to="/" />  
    
   };
 

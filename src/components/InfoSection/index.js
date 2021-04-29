@@ -30,10 +30,10 @@ const InfoSection = (
     primary,
     darkText,
     dark,
-    dark2
+    dark2,
+    to
   }
-) =>{
-  console.log({img})
+) =>{  
     return (
         <>
           <InfoContainer lightBg={lightBg} id={id}>          
@@ -46,12 +46,12 @@ const InfoSection = (
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                     <BtnWrap>
                       <Button
-                        to='home'
+                        to={to}
                         smooth={true}
                         duration={500}
                         spy={true}
                         exact='true'
-                        offset={-80}
+                        offset={0}
                         primary={primary ? 1 : 0}
                         dark={dark ? 1 : 0}
                         dark2={dark2 ? 1 : 0}
