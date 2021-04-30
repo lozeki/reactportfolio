@@ -52,5 +52,5 @@ export const homeObjOne = {
     dark: false,
     primary: false,
     darkText: true,
-    to: 'portfolio'
+    to: 'portfolio'    
   };
