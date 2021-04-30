@@ -9,7 +9,8 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    NavLinkr
 } 
 from './NavbarElements';
 
@@ -17,7 +18,7 @@ const Navbar = ({toggle}) => {
     const toggleHome = () => { // Use react-scroll from npmjs
         animateScroll.scrollToTop();
     };
-        
+         
     return (
         <>
             <Nav>
@@ -71,6 +72,11 @@ const Navbar = ({toggle}) => {
                             exact='true'
                             offset={0}
                             >Portfolio</NavLinks>
+                        </NavItem>
+                        <NavItem>                            
+                            <NavLinkr  to='resume'
+                            target='blank'
+                            offset={0} >Resume</NavLinkr>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

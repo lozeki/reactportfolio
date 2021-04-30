@@ -27,8 +27,7 @@ const Contact = () => {
     console.log('submitted!');
     console.log(state);    
     console.log("Succeeded!!!"); 
-    return  <Redirect  to="/" />  
-   
+    return  <Redirect  to="/" />
   };
 
   const handleInput = event => {
@@ -44,7 +43,7 @@ const Contact = () => {
           <FormContent>              
             <Form onSubmit={handleSubmit} to='/'>
             <Icon to='/'>Back</Icon>
-              <FormH1>Have Some Question?</FormH1>
+              <FormH1>Please feel free to contact me if you need any further information.</FormH1>
               <FormLabel htmlFor='name'>Name</FormLabel>
               <FormInput type='name' name='name' onChange={handleInput} placeholder='Your Name' required />
               <FormLabel htmlFor='email'>Email</FormLabel>
