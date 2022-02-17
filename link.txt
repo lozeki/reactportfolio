@@ -1,0 +1,16 @@
+Android Studio:
+
+  https://guides.codepath.com/android/creating-and-using-fragments
+  https://code.tutsplus.com/tutorials/how-to-generate-apk-and-signed-apk-files-in-android-studio--cms-37927
+  https://www.tutlane.com/tutorial/android/android-hello-world-app-example
+  https://developer.android.com/training/constraint-layout
+  https://abhiandroid.com/ui/fragment
+ 
+
+Python Flask:
+
+  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis
+
+Robotic - ROS:
+
+  https://github.com/UBC-Snowbots/Snowflake#rostest
